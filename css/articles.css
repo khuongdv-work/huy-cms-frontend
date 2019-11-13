@@ -1,0 +1,61 @@
+#breadcrumbs{
+    background: url('../images/bg2.jpg') no-repeat fixed;
+    position: relative;
+    padding: 54px 0 27px;
+    margin: 0 0 73px;
+    color: #222222;
+    background-size: cover;
+}
+#breadcrumbs nav{}
+#breadcrumbs nav .breadcrumb{
+    background-color: transparent;
+}
+#breadcrumbs nav .breadcrumb .breadcrumb-item{}
+#breadcrumbs nav .breadcrumb .breadcrumb-item+.breadcrumb-item::before{
+    color: white;
+}
+#breadcrumbs nav .breadcrumb .breadcrumb-item a{
+    color: white;
+}
+
+#breadcrumbs nav .breadcrumb .breadcrumb-item.active{
+    color: white;
+}
+
+.article-content{
+    padding-bottom: 50px;
+}
+.article-content .page-title{
+    font-size: 2rem;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.article-content .page-description{}
+.article-content .page-content{}
+
+/** widget-box  **/
+.widget-sidebar{
+    background-color: #396da6;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 2rem;
+}
+.widget-sidebar .widget-title{
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.widget-sidebar .widget-content{}
+
+.widget-form > .widget-content .btn-100{
+    display: block;
+    width: 100%;
+}
+
+label.error{
+    color: #e46c6c;
+    margin: 0;
+}

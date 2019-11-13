@@ -176,3 +176,8 @@ body{
 #footer .social-icon svg:hover{
     cursor: pointer;
 }
+
+label.error{
+    margin: 0;
+    color: #e46c6c;
+}
